@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Virtual Shop</title>
+    <style>
+        body { font-family: Arial, sans-serif; background-color: #f4f4f4; margin: 0; padding: 0; }
+        .container { width: 100%; max-width: 1200px; margin: 0 auto; padding: 20px; }
+        .product { background-color: white; margin: 10px 0; padding: 20px; box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1); }
+        .product img { width: 100%; height: auto; }
+        .product h2 { font-size: 1.5em; margin: 10px 0; }
+        .price { font-size: 1.2em; color: #d9534f; }
+        .payment-info { font-size: 1.1em; margin-top: 20px; }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <h1>Welcome to Virtual Shop</h1>
+
+        <div class="product">
+            <img src="prime-video-image.jpg" alt="Prime Video">
+            <h2>Prime Video Subscription</h2>
+            <p>Price: ৭০০ টাকা/মাস</p>
+            <p class="price">৳ 700</p>
+            <div class="payment-info">
+                <p>Payment via: বিকাশ (017xxxxxxxx)</p>
+                <p>Transaction ID দিয়ে অর্ডার কনফার্ম করুন</p>
+            </div>
+        </div>
+
+        <div class="product">
+            <img src="netflix-image.jpg" alt="Netflix">
+            <h2>Netflix Subscription</h2>
+            <p>Price: ৮০০ টাকা/মাস</p>
+            <p class="price">৳ 800</p>
+            <div class="payment-info">
+                <p>Payment via: বিকাশ (017xxxxxxxx)</p>
+                <p>Transaction ID দিয়ে অর্ডার কনফার্ম করুন</p>
+            </div>
+        </div>
+
+        <div class="product">
+            <img src="vpn-image.jpg" alt="VPN">
+            <h2>VPN Subscription</h2>
+            <p>Price: ৫০০ টাকা/মাস</p>
+            <p class="price">৳ 500</p>
+            <div class="payment-info">
+                <p>Payment via: বিকাশ (017xxxxxxxx)</p>
+                <p>Transaction ID দিয়ে অর্ডার কনফার্ম করুন</p>
+            </div>
+        </div>
+    </div>
+</body>
+</html>
